@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FILESYSTEMS ENTITY="FileSystems" APPLICATION_NAME="Salino"
+ VERSION="7.0.2" WORKSPACE_HOME="./WebContent/WEB-INF">
+ <FILESYSTEM ENTITY="FileSystemFolder" NAME="WEB-INF" LOCATION="%exadel.workspace%"/>
+ <FILESYSTEM ENTITY="FileSystemFolder" NAME="WEB-ROOT"
+  LOCATION="%exadel.workspace%/.." INFO="Content-Type=Web"/>
+ <FILESYSTEM ENTITY="FileSystemFolder" NAME="src" LOCATION="%exadel.workspace%/../../JavaSource"/>
+ <FILESYSTEM ENTITY="FileSystemFolder" NAME="classes" LOCATION="%exadel.workspace%/classes"/>
+ <FILESYSTEM ENTITY="FileSystemFolder" NAME="build" LOCATION="%exadel.workspace%/../../ant"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-antlr.jar"
+  LOCATION="%exadel.workspace%/lib/antlr.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-commons-fileupload.jar"
+  LOCATION="%exadel.workspace%/lib/commons-fileupload.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-commons-lang.jar"
+  LOCATION="%exadel.workspace%/lib/commons-lang.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-commons-validator.jar"
+  LOCATION="%exadel.workspace%/lib/commons-validator.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-jakarta-oro.jar"
+  LOCATION="%exadel.workspace%/lib/jakarta-oro.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-struts-legacy.jar"
+  LOCATION="%exadel.workspace%/lib/struts-legacy.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-struts.jar"
+  LOCATION="%exadel.workspace%/lib/struts.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-commons-beanutils.jar"
+  LOCATION="%exadel.workspace%/lib/commons-beanutils.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-commons-collections.jar"
+  LOCATION="%exadel.workspace%/lib/commons-collections.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-commons-digester.jar"
+  LOCATION="%exadel.workspace%/lib/commons-digester.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-commons-logging.jar"
+  LOCATION="%exadel.workspace%/lib/commons-logging.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-jstl.jar"
+  LOCATION="%exadel.workspace%/lib/jstl.jar" INFO="hidden=yes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" NAME="lib-standard.jar"
+  LOCATION="%exadel.workspace%/lib/standard.jar" INFO="hidden=yes"/>
+ <WEB ENTITY="ExadelWeb" MODEL_PATH="/web.xml" SERVLET_VERSION="2.3">
+  <MODULE ENTITY="ExadelWebModule" URI="/WEB-INF/struts-config.xml"
+   MODEL_PATH="/struts-config.xml" ROOT="WEB-ROOT" SRC="src"/>
+ </WEB>
+</FILESYSTEMS>
